@@ -2,7 +2,7 @@ package models;
 
 public class CalculaImposto{
 
-    public double realizaCalculo(Orcamento orcamento, IImposto imposto){
-        return imposto.calcula(orcamento);
+    public double realizaCalculo(double valor, IImposto imposto){
+        return imposto.calcula(valor);
     }
 }
