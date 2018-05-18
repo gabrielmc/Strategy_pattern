@@ -1,4 +1,9 @@
-public class IMCS implements Imposto{
+
+package Impostos;
+import models.Orcamento;
+import models.IImposto;
+
+public class INSSA implements IImposto{
 
     @Override
     public double calcula(Orcamento orcamento){

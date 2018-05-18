@@ -1,3 +1,6 @@
+
+package models;
+
 public class Orcamento{
 
     private double valor;
